@@ -47,6 +47,8 @@ section {
   height: 80vh;
   width: 100%;
   border-radius: 20px;
+  flex-direction: column;
+  justify-content: center;
 }
 .bg {
   display: flex;
@@ -59,10 +61,14 @@ section {
   border-radius: 20px;
 }
 .section2 h1 {
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   align-items: center;
   display: flex;
   color: white;
-  justify-content: center;
+}
+.section2 p {
+  font-size: 30px;
+  color: white;
+  text-align: center;
 }
