@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 55px;
+}
+.logo img {
+  width: 40%;
+}
+.navlinks {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+.list {
+  display: flex;
+  margin-right: 10px;
+  gap: 20px;
+  list-style: none;
+}
+.navlinks button {
+  background: none;
+  color: black;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.navlinks button:hover {
+  background: blue;
+  color: white;
+  transition: 0.5s ease-in;
+}
+.content1 {
+  display: flex;
+  justify-content: center;
+}
+.section2 {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 255, 0.151);
+  height: 80vh;
+  width: 100%;
+  border-radius: 20px;
+}
+.bg {
+  display: flex;
+  align-items: center;
+  background: url(./new-home-hero-image-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  border-radius: 20px;
+}
+.section2 h1 {
+  font-size: 30px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  justify-content: center;
+}
