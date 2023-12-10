@@ -9,6 +9,10 @@ section {
   align-items: center;
   padding: 10px 55px;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .logo img {
   width: 40%;
 }
@@ -92,15 +96,17 @@ section {
   background: none;
   color: white;
   padding: 10px;
-  border: 1px solid;
+  border: none;
   border-radius: 15px;
   font-size: 20px;
   background: blue;
   color: white;
+  cursor: pointer;
 }
-.text button:hover {
+.sectionText button:hover {
   transition: 0.5s ease-in;
   background: rgb(51, 51, 162);
+  color: black;
 }
 .section4 h1 {
   text-align: center;
@@ -115,29 +121,6 @@ section {
   font-size: 50px;
   margin-bottom: 40px;
 }
-/* .cards {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-}
-.card1 {
-  display: flex;
-  background: url(/hero-image\ 1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 70vh;
-  width: 300px;
-  border-radius: 20px;
-}
-.blue {
-  background-color: rgba(0, 0, 255, 0.356);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 70vh;
-  width: 300px;
-  padding-top: 300px;
-  color: white;
-  border-radius: 20px; */
 
 .cards {
   display: flex;
@@ -148,7 +131,7 @@ section {
 }
 .card1 {
   display: flex;
-  background: url(/hero-image\ 1.jpg);
+  background: url(hero-image\ 1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 70vh;
@@ -160,7 +143,7 @@ section {
   width: 250px;
   height: 70vh;
   border-radius: 10px;
-  padding-top: 270px;
+  padding-top: 210px;
 }
 .blue h1 {
   color: white;
@@ -192,4 +175,136 @@ section {
   height: 70vh;
   width: 250px;
   border-radius: 10px;
+}
+.section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sectionText5 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.sectionText5 h1 {
+  font-size: 50px;
+  font-weight: 900;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+}
+.sectionText5 p {
+  font-size: 30px;
+  font-weight: 600;
+}
+.section6 {
+  display: flex;
+  flex-direction: column;
+}
+.sectionText6 h1 {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+.logosContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.logos img {
+  display: flex;
+  width: 12%;
+  margin-bottom: 40px;
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.sectionText7 h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+.section7 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cardsContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+.cards2 {
+  width: 165%;
+}
+.cards2 img {
+  width: 100%;
+  border-radius: 20px;
+}
+.cards2 h1 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cards2 h2 {
+  font-size: 15px;
+  color: rgba(58, 57, 57, 0.753);
+  font-weight: 200;
+}
+
+.cards3 img {
+  width: 100%;
+}
+.link {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.link a {
+  color: rgb(64, 8, 116);
+  font-size: 17px;
+  border-bottom: 1.5px solid rgb(64, 8, 116);
+  padding-bottom: 2px;
+  font-weight: 600;
+}
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  width: 100%;
+  height: 85vh;
+  padding: 20px;
+}
+.footer1 {
+  display: flex;
+  
+}
+.footer1Logo {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.footer1Logo img {
+  width: 70%;
+  margin-bottom: 100px;
+}
+.footer1Logo p {
+  color: white;
+  font-size: 13px;
+}
+.footer1List ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
