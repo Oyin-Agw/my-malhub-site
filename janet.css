@@ -285,7 +285,7 @@ a {
 }
 .footer1 {
   display: flex;
-  
+  gap: 100px;
 }
 .footer1Logo {
   display: flex;
@@ -300,11 +300,19 @@ a {
   color: white;
   font-size: 13px;
 }
+.footerText {
+  display: flex;
+  gap: 70px;
+}
 .footer1List ul {
   color: white;
   list-style: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
-
+  align-items: start;
+  gap: 10px;
 }
+.input{
+  display: flex;
+};
+
